@@ -1,0 +1,22 @@
+{
+    "name": "IntermediateJavaScript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "jest": {
+      "verbose": true
+    },
+    "dependencies": {
+      "jest": "^28.1.3"
+    },
+    "scripts": {
+      "dev": "node ./src/chapter1/index.js",
+      "test": "jest --config ./jest.config.json"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.18.9",
+      "@babel/preset-env": "^7.18.9",
+      "@types/jest": "^28.1.6",
+      "babel-jest": "^28.1.3"
+    }
+  }
