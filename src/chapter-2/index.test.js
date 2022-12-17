@@ -9,7 +9,7 @@ describe('fibonacciPrintString', () => {
 		const response = fibonacciPrintString(numberOfTerms);
 
 		// THEN
-		expect(response).toEqual('0 1 1 2 3');
+		expect(response).toEqual(' 0 1 1 2 3');
 	})
 
 	it('should return appropriate string when the number of terms is 4', () => {
@@ -20,7 +20,7 @@ describe('fibonacciPrintString', () => {
 		const response = fibonacciPrintString(numberOfTerms);
 
 		// THEN
-		expect(response).toEqual('0 1 1 2');
+		expect(response).toEqual(' 0 1 1 2');
 	})
 
 	it('should return appropriate string when the number of terms is 6', () => {
@@ -31,7 +31,7 @@ describe('fibonacciPrintString', () => {
 		const response = fibonacciPrintString(numberOfTerms);
 
 		// THEN
-		expect(response).toEqual('0 1 1 2 3 5');
+		expect(response).toEqual(' 0 1 1 2 3 5');
 	})
 
 	it('should return appropriate string when the number of terms is 0', () => {
@@ -53,7 +53,7 @@ describe('fibonacciPrintString', () => {
 		const response = fibonacciPrintString(numberOfTerms);
 
 		// THEN
-		expect(response).toEqual('0');
+		expect(response).toEqual(' 0');
 	})
 
 	it('should return appropriate string when the number of terms is negative', () => {
