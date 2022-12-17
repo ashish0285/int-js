@@ -3,8 +3,8 @@ import { printReport } from "./index";
 describe("printReport", () => {
 
     console.log = jest.fn();
-    
-	it("should assert the correct logs", () => {
+
+	it("should console correctly", () => {
 		// GIVEN
 		const studentDetail = {
 			David: 80,
@@ -29,7 +29,7 @@ describe("printReport", () => {
 		]);
 	});
 
-	it('should throw an error when marks are not between 0 and 100', () => {
+	it('should throw an error when marks are not valid', () => {
 		// GIVEN
 		const studentInfo = {
 			David: -80,
