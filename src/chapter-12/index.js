@@ -1,0 +1,1 @@
+export const checkTypes = (value1, value2) => typeof value1 === typeof value2;
